@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "287823715851",
+    "project_id": "kuiz-24933",
+    "storage_bucket": "kuiz-24933.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287823715851:android:e1f685110b90247d75710e",
+        "android_client_info": {
+          "package_name": "com.wtom.kuiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287823715851-qf1nqns83f99ogq5fp11bc9al4vg460t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wtom.kuiz",
+            "certificate_hash": "af5d6307f7649b814c83484b200f78a9beb57d43"
+          }
+        },
+        {
+          "client_id": "287823715851-q9ha6mtm0dff2g74cbshqo4g27i2t63l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEJXTNaqR0K7Wq5DN-XXGkF058CVBGW-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287823715851-q9ha6mtm0dff2g74cbshqo4g27i2t63l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
