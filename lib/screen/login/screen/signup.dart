@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kuiz/screen/bottom/bottom_nav.dart';
-import 'package:kuiz/service/auth/auth_service.dart';
 import 'package:kuiz/util/my_size.dart';
-
 import '../../../controller/auth_controller.dart';
 import '../../../util/my_widget.dart';
 

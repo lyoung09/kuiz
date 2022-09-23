@@ -67,11 +67,13 @@ class LoginScreen extends GetWidget<AuthController> {
   }
 
   Widget isios() {
-    return Platform.isIOS == false
+    return Platform.isIOS == true
         ? Column(children: [
             MySize.smallHeight(),
             GestureDetector(
-                onTap: () {},
+                onTap: () {
+                  controller.appleLogin();
+                },
                 child: LoginButtonWidget(
                     title: 'Apple Login', apple: FontAwesomeIcons.apple))
           ])

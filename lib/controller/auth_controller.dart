@@ -1,12 +1,11 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:kuiz/controller/user_controller.dart';
 import 'package:kuiz/model/user_model.dart';
-import 'package:kuiz/screen/bottom/bottom_nav.dart';
-import 'package:kuiz/screen/login/login.dart';
+import 'package:kuiz/service/util/random.dart';
+import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
 import '../root.dart';
 import '../service/api/user_service.dart';
@@ -62,19 +61,46 @@ class AuthController extends GetxController {
     );
     UserCredential us = await _auth.signInWithCredential(credential);
     if (us.additionalUserInfo!.isNewUser) {
-      debugPrint(us.user!.displayName.toString() + "hello1");
       UserModel userModel = UserModel(
           userId: us.user!.uid,
           nickName: us.user!.displayName ?? '',
           userEmail: us.user!.email ?? '');
 
       await MyUserService().setUserData(userModel);
-    } else {
-      debugPrint(us.user!.displayName.toString() + "hello2");
     }
   }
 
-  void appleLogin() {}
+  void appleLogin() async {
+    try {
+      final AuthorizationCredentialAppleID appleCredential =
+          await SignInWithApple.getAppleIDCredential(
+        scopes: [
+          AppleIDAuthorizationScopes.email,
+          AppleIDAuthorizationScopes.fullName
+        ],
+      );
+      OAuthProvider oauthProvider = OAuthProvider('apple.com');
+      final credential = oauthProvider.credential(
+        idToken: appleCredential.identityToken,
+        accessToken: appleCredential.authorizationCode,
+      );
+      UserCredential us = await _auth.signInWithCredential(credential);
+
+      debugPrint(us.user.toString());
+      if (us.additionalUserInfo!.isNewUser) {
+        String nickname =
+            us.user!.displayName ?? RandomHelper().generateRandomString(5);
+        UserModel userModel = UserModel(
+            userId: us.user!.uid,
+            nickName: nickname,
+            userEmail: us.user!.email ?? '');
+
+        await MyUserService().setUserData(userModel);
+      }
+    } catch (e) {
+      Get.snackbar('Error', e.toString());
+    }
+  }
 
   void login(String email, String password) async {
     try {

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kuiz/controller/auth_controller.dart';
 import 'package:kuiz/controller/user_controller.dart';
 
 class Home extends GetWidget<UserController> {

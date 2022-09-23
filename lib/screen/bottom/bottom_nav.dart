@@ -1,12 +1,7 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:kuiz/controller/auth_controller.dart';
-import 'package:kuiz/controller/user_controller.dart';
 import 'package:kuiz/screen/bottom/profile/profile.dart';
 import 'package:kuiz/screen/bottom/quiz/quiz.dart';
 import 'package:kuiz/screen/bottom/user/user.dart';
-import 'package:kuiz/service/auth/auth_service.dart';
 
 import 'home/home.dart';
 
