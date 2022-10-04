@@ -1,4 +1,8 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:kuiz/controller/setting_controller.dart';
 import 'package:kuiz/screen/bottom/profile/profile.dart';
 import 'package:kuiz/screen/bottom/quiz/quiz.dart';
 import 'package:kuiz/screen/bottom/user/user.dart';
@@ -14,9 +18,14 @@ class BottomTap extends StatefulWidget {
 
 class _BottomTapState extends State<BottomTap> {
   int _selectedIndex = 0;
+  final settingController = Get.put(SettingController());
   @override
   void initState() {
     super.initState();
+
+    // DateTime yourTime = DateTime.now().add(Duration(minutes: 1));
+    // VoidCallback yourAction = settingController.newTime();
+    //Timer(yourTime.difference(DateTime.now()), yourAction);
   }
 
   @override
@@ -45,7 +54,7 @@ class _BottomTapState extends State<BottomTap> {
             items: [
               BottomNavigationBarItem(
                   icon: Image.asset(
-                    "assets/icon/home.png",
+                    "assets/bottomicon/home.png",
                     fit: BoxFit.fill,
                     width: 25,
                     height: 25,
@@ -53,7 +62,7 @@ class _BottomTapState extends State<BottomTap> {
                   label: "home"),
               BottomNavigationBarItem(
                   icon: Image.asset(
-                    "assets/icon/quiz.png",
+                    "assets/bottomicon/quiz.png",
                     fit: BoxFit.fill,
                     width: 25,
                     height: 25,
@@ -61,7 +70,7 @@ class _BottomTapState extends State<BottomTap> {
                   label: "quiz"),
               BottomNavigationBarItem(
                   icon: Image.asset(
-                    "assets/icon/user.png",
+                    "assets/bottomicon/users.png",
                     fit: BoxFit.fill,
                     width: 25,
                     height: 25,
@@ -69,7 +78,7 @@ class _BottomTapState extends State<BottomTap> {
                   label: "user"),
               BottomNavigationBarItem(
                   icon: Image.asset(
-                    "assets/icon/my.png",
+                    "assets/icons/my.png",
                     fit: BoxFit.fill,
                     width: 25,
                     height: 25,

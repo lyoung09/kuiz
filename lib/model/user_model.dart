@@ -3,6 +3,14 @@ class UserModel {
   String nickName;
   String userEmail;
   String? profile;
+  String? token;
+  String? lang;
+  int? mathLevel;
+  int? langLevel;
+  int? cryptoLevel;
+  int? quizAvg;
+  List? following;
+  List? follower;
   List? block;
   List? blocked;
   UserModel(
@@ -10,6 +18,14 @@ class UserModel {
       required this.nickName,
       required this.userEmail,
       this.profile,
+      this.token,
+      this.lang,
+      this.quizAvg,
+      this.mathLevel,
+      this.langLevel,
+      this.cryptoLevel,
+      this.following,
+      this.follower,
       this.block,
       this.blocked});
 
@@ -19,6 +35,14 @@ class UserModel {
         nickName: json['nickName'],
         userEmail: json['userEmail'],
         profile: json['profile'],
+        token: json['token'],
+        lang: json['lang'],
+        quizAvg: json['quizAvg'],
+        mathLevel: json['mathLevel'],
+        langLevel: json['langLevel'],
+        cryptoLevel: json['cryptoLevel'],
+        following: json['following'],
+        follower: json['follower'],
         block: json['block'],
         blocked: json['blocked']);
   }
@@ -28,6 +52,14 @@ class UserModel {
         'nickName': nickName,
         'userEmail': userEmail,
         'profile': profile,
+        'token': token,
+        'lang': lang,
+        'quizAvg': quizAvg,
+        'mathLevel': mathLevel,
+        'langLevel': langLevel,
+        'cryptoLevel': cryptoLevel,
+        'following': following,
+        'follower': follower,
         'block': block,
         'blocked': blocked,
       };

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:get/state_manager.dart';
+import 'package:get/get.dart';
+
 import 'package:kuiz/controller/auth_controller.dart';
 
-class Profile extends GetWidget<AuthController> {
+class Profile extends StatelessWidget {
   const Profile({Key? key}) : super(key: key);
 
   @override
@@ -27,10 +28,16 @@ class Profile extends GetWidget<AuthController> {
                 },
               ),
               actions: <Widget>[
-                IconButton(
-                  icon: Icon(Icons.search),
-                  onPressed: () {},
-                ), // overflow menu
+                GetBuilder<AuthController>(
+                    init: AuthController(),
+                    builder: (_) {
+                      return IconButton(
+                        icon: Icon(Icons.search),
+                        onPressed: () {
+                          _.signOut();
+                        },
+                      );
+                    }), // overflow menu
                 PopupMenuButton<String>(
                   onSelected: (String value) {},
                   itemBuilder: (context) => [

@@ -1,0 +1,3006 @@
+{
+    "area": "math",
+    "level": 4,
+    "quizlist": [
+        {"option": [], "correct": 0, "quiz": " 31 * 5 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 40 / 8 + 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 - 26 + 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 / 21 - 21 * 63 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 / 32 + 24 - 192 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 * 3 + 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 - 26 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 21 - 150 / 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 21 - 90 / 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 - 144 / 24 + 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 13 + 238 / 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 28 / 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 + 33 - 11 / 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 / 17 - 27 * 68 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 * 10 - 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 + 9 - 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 13 - 6 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 - 30 * 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 30 / 30 - 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 - 11 * 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 - 23 / 23 + 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 * 14 + 85 / 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 38 / 19 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 76 / 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 * 16 - 115 / 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 42 / 6 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 34 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 26 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 19 - 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 42 / 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 + 19 - 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 / 3 - 31 * 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 * 4 + 140 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 198 / 33 + 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 * 128 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 / 13 - 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 23 / 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 + 34 / 34 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 + 5 * 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 + 4 * 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 32 * 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 - 3 * 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 23 + 36 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 + 44 / 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 19 + 33 / 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 25 + 8 * 150 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 72 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 + 3 * 11 - 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 * 11 + 84 / 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 / 22 - 14 + 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 - 17 + 6 * 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 56 / 8 - 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 23 + 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 - 168 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 / 4 - 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 * 24 / 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 - 33 * 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 * 34 - 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 125 / 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 * 24 / 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 - 7 + 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 - 5 + 45 / 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 / 26 + 26 * 52 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 * 112 / 28 + 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 + 10 * 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 * 18 + 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 27 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 18 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 / 32 + 32 * 64 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 6 * 3 + 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 42 / 14 + 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 - 30 * 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 104 / 26 + 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 32 * 56 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 126 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 * 32 + 25 - 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 / 28 - 7 * 56 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 * 16 - 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 / 12 - 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 23 - 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 * 24 - 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 7 - 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 56 / 14 * 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 * 27 - 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 / 4 * 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 * 60 / 20 + 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 17 - 19 * 102 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 - 40 / 10 + 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 + 25 * 66 / 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 10 + 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 / 12 + 3 - 84 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 * 7 + 231 / 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 108 / 27 * 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 - 156 / 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 - 12 + 17 / 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 140 / 20 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 * 10 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 24 + 3 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 * 33 + 18 - 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 / 5 * 11 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 + 44 / 22 * 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 * 68 / 17 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 * 20 + 7 / 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 * 28 - 3 + 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 + 30 * 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 / 33 * 34 - 99 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 * 6 + 186 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 3 + 19 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 / 16 - 10 * 48 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 16 / 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 - 5 + 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 85 / 17 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 + 13 - 120 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 - 25 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 / 33 * 4 + 231 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 18 + 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 - 9 * 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 / 6 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 - 48 / 16 + 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 - 29 * 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 125 / 25 + 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 54 / 9 * 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 / 34 * 29 + 68 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 - 34 + 34 * 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 6 - 38 / 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 - 29 * 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 9 + 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 + 64 / 32 - 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 84 / 21 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 - 126 / 18 + 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 / 10 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 / 6 - 8 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 9 + 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 - 10 + 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 / 26 + 16 * 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 68 / 17 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 + 7 - 92 / 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 144 / 24 * 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 29 - 34 / 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 / 20 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 32 + 31 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 27 * 69 / 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 + 60 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 34 - 21 / 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 144 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 22 - 28 + 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 - 16 * 21 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 - 54 / 9 + 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 12 - 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 19 - 84 / 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 * 210 / 30 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 52 / 26 + 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 + 25 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 / 28 - 28 + 196 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 + 70 / 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 33 + 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 + 36 / 18 - 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 11 - 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 - 17 * 8 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 88 / 22 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 231 / 33 * 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 23 - 20 * 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 * 27 - 10 / 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 99 / 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 / 31 * 12 - 186 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 + 34 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 19 - 46 / 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 20 - 12 / 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 / 17 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 - 11 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 - 52 / 13 + 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 28 - 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 - 8 * 30 / 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 33 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 + 34 * 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 55 / 11 + 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 14 - 9 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 * 20 - 96 / 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 58 / 29 - 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 * 22 + 12 - 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 * 16 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 28 - 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 * 5 / 5 + 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 196 / 28 + 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 115 / 23 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 42 / 6 - 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 50 / 25 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 - 32 + 7 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 - 18 * 50 / 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 * 5 - 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 4 + 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 34 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 186 / 31 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 64 / 32 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 96 / 32 - 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 * 13 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 / 26 * 26 + 104 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 * 20 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 34 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 19 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 / 4 + 19 - 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 * 29 + 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 / 29 + 15 * 58 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 - 7 * 30 + 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 42 / 14 * 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 29 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 16 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 - 24 * 23 + 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 + 19 * 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 60 / 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 + 12 - 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 / 30 - 34 * 210 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 27 / 27 + 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 28 + 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 / 4 + 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 84 / 14 * 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 + 28 * 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 * 11 - 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 13 - 66 / 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 28 - 238 / 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 - 84 / 21 + 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 18 + 18 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 - 140 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 18 - 15 + 54 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 28 * 34 + 112 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 / 16 * 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 + 17 / 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 6 + 42 / 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 28 / 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 18 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 - 25 * 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 * 19 + 66 / 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 - 66 / 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 + 27 * 81 / 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 / 13 * 8 + 91 "
+        },
+        {"option": [], "correct": 0, "quiz": " 120 / 30 + 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 + 11 - 32 * 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 + 81 / 27 * 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 30 - 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 - 22 / 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 * 26 - 15 + 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 * 22 - 112 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 22 + 55 / 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 * 26 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 + 70 / 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 128 / 32 - 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 + 30 / 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 - 69 / 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 28 / 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 112 / 16 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 + 116 / 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 * 9 + 24 / 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 14 / 7 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 32 / 16 - 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 - 7 + 34 * 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 + 15 - 17 * 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 4 + 189 / 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 - 147 / 21 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 - 25 * 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 + 7 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 9 - 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 217 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 100 / 20 + 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 29 / 29 - 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 - 36 / 12 + 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 24 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 28 / 14 * 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 - 22 * 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 + 34 * 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 75 / 25 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 180 / 30 - 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 24 / 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 - 24 * 9 + 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 18 * 192 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 15 + 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 33 + 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 - 28 + 17 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 - 16 * 14 + 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 / 23 + 10 * 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 130 / 26 + 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 / 6 + 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 99 / 33 + 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 13 + 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 28 * 24 - 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 / 28 - 20 + 56 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 + 33 - 68 / 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 160 / 32 - 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 11 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 / 17 - 31 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 - 18 + 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 / 13 * 3 + 65 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 174 / 29 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 84 / 21 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 / 10 - 17 + 40 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 * 11 + 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 - 29 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 - 15 + 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 6 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 - 12 / 3 * 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 132 / 33 * 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 - 150 / 30 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 26 - 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 32 * 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 12 * 7 + 48 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 - 104 / 26 * 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 - 18 * 90 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 28 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 13 - 32 + 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 - 11 * 27 + 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 * 27 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 - 21 + 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 + 28 * 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 + 27 - 10 * 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 36 / 6 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 - 15 + 22 / 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 * 15 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 + 23 * 44 / 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 - 4 + 27 * 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 124 / 31 - 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 + 9 - 21 * 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 14 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 27 / 27 * 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 27 + 22 * 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 * 9 - 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 * 14 + 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 12 * 18 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 - 9 * 25 + 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 + 30 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 + 16 - 170 / 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 175 / 25 * 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 - 13 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 20 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 / 7 + 3 * 35 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 / 22 + 8 - 44 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 31 - 6 / 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 19 * 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 8 * 26 / 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 28 + 60 / 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 * 12 / 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 18 * 145 / 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 93 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 / 6 * 23 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 175 / 25 * 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 * 24 / 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 + 3 * 40 / 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 9 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 * 186 / 31 - 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 22 + 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 31 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 / 23 - 21 + 161 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 - 30 + 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 + 28 / 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 - 3 * 5 + 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 3 + 154 / 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 + 6 * 116 / 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 + 26 * 8 / 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 / 9 * 6 + 63 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 * 28 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 - 20 + 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 42 / 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 19 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 - 15 + 35 / 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 - 21 + 15 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 + 27 * 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 + 11 - 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 * 23 + 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 - 22 * 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 + 12 - 68 / 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 * 224 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 7 * 44 / 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 + 13 - 27 * 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 / 24 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 66 / 33 + 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 - 15 + 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 / 13 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 * 20 - 22 + 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 30 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 + 120 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 + 24 - 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 - 32 * 18 / 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 25 * 15 - 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 10 - 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 + 6 * 31 - 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 30 - 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 - 50 / 10 + 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 / 13 * 13 - 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 + 34 * 45 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 8 * 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 7 - 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 3 * 4 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 29 / 29 * 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 * 33 + 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 / 12 + 25 - 60 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 / 17 * 21 - 85 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 23 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 / 11 * 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 10 / 5 + 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 19 / 19 - 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 + 18 - 24 * 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 / 18 - 10 * 126 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 162 / 27 + 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 60 / 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 5 * 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 4 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 * 3 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 4 + 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 + 20 - 20 / 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 14 * 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 - 3 + 24 * 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 28 / 7 - 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 12 + 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 30 - 12 + 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 + 17 * 16 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 10 - 60 / 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 / 18 - 11 * 90 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 - 170 / 34 * 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 + 30 - 14 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 * 12 + 27 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 - 7 + 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 14 - 147 / 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 / 34 * 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 78 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 * 28 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 + 12 / 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 15 - 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 - 48 / 24 * 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 - 33 * 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 5 + 196 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 48 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 * 7 - 56 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 - 14 / 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 119 / 17 + 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 21 / 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 29 * 3 - 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 / 9 + 10 * 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 - 120 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 / 4 + 27 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 182 / 26 + 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 4 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 54 / 9 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 * 155 / 31 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 28 * 126 / 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 6 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 10 + 36 / 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 * 140 / 28 - 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 21 - 40 / 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 - 66 / 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 + 34 / 34 - 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 22 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 * 18 / 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 * 18 + 32 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 155 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 - 9 * 105 / 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 * 217 / 31 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 - 26 + 14 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 20 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 27 - 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 100 / 20 * 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 - 50 / 10 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 4 + 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 - 16 * 40 / 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 105 / 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 * 14 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 + 16 / 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 / 6 + 10 * 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 + 28 - 189 / 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 22 + 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 9 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 7 + 155 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 / 23 - 17 * 69 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 + 27 * 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 - 33 + 21 * 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 / 30 + 26 * 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 / 14 - 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 90 / 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 - 28 * 65 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 16 * 14 - 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 / 17 * 15 + 51 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 26 + 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 28 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 33 + 128 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 / 3 * 21 + 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 / 8 + 33 * 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 15 - 8 / 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 + 24 - 70 / 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 49 / 7 * 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 * 56 / 8 - 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 150 / 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 54 / 9 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 9 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 - 31 + 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 51 / 17 - 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 95 / 19 + 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 162 / 27 * 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 36 / 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 18 - 18 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 33 * 168 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 77 / 11 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 * 11 + 156 / 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 + 55 / 11 * 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 + 22 * 21 - 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 13 * 30 - 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 - 34 * 49 / 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 31 / 31 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 - 27 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 7 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 78 / 26 - 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 / 6 + 8 - 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 / 7 - 23 + 49 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 / 34 * 16 - 238 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 + 22 * 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 - 5 + 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 58 / 29 - 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 54 / 27 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 108 / 27 + 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 30 * 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 27 - 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 / 6 - 28 + 36 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 * 15 + 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 + 75 / 15 * 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 * 20 + 21 / 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 - 20 + 4 * 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 + 147 / 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 13 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 44 / 11 - 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 15 * 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 22 - 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 15 + 22 - 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 3 - 27 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 + 20 - 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 14 + 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 * 84 / 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 20 / 4 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 115 / 23 - 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 - 23 / 23 * 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 / 20 - 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 38 / 19 * 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 / 4 * 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 * 12 - 25 / 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 9 + 35 / 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 17 - 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 76 / 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 * 24 - 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 22 - 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 * 14 / 7 + 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 + 20 - 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 + 21 * 77 / 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 / 17 * 22 + 102 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 28 * 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 3 + 13 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 + 27 / 27 * 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 18 / 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 + 29 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 9 - 30 / 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 + 26 * 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 3 - 14 / 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 25 - 25 + 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 + 70 / 14 * 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 * 27 - 23 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 84 / 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 / 3 * 29 + 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 32 - 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 23 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 21 / 21 + 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 54 / 27 + 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 * 72 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 + 29 * 192 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 * 81 / 27 - 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 - 24 + 102 / 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 + 29 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 - 78 / 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 * 26 + 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 217 / 31 * 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 - 10 * 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 * 54 / 18 + 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 20 / 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 25 - 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 64 / 32 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 - 4 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 + 15 * 4 - 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 - 84 / 21 * 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 / 4 * 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 20 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 / 28 * 13 + 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 120 / 20 + 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 * 33 + 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 * 35 / 5 - 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 + 132 / 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 + 34 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 / 13 + 31 - 78 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 * 57 / 19 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 + 16 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 - 18 + 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 - 21 + 72 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 * 24 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 / 22 * 31 + 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 72 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 19 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 + 23 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 33 + 6 - 198 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 10 * 34 / 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 * 10 - 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 17 + 65 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 84 / 12 * 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 - 168 / 28 * 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 + 87 / 29 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 27 - 32 + 54 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 * 33 - 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 6 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 75 / 15 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 / 26 - 23 + 104 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 - 48 / 16 + 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 11 - 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 / 15 + 14 * 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 - 27 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 6 * 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 - 19 + 6 * 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 * 14 + 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 - 150 / 30 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 + 19 - 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 - 31 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 / 18 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 + 102 / 34 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 18 * 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 9 * 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 66 / 22 * 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 3 + 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 30 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 56 / 14 - 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 * 96 / 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 / 23 + 27 * 138 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 + 7 * 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 + 30 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 - 25 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 * 60 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 * 11 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 - 21 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 / 17 * 8 - 119 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 * 33 + 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 30 + 21 / 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 - 14 * 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 + 56 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 + 64 / 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 12 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 * 8 + 26 - 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 17 * 14 / 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 - 25 + 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 - 24 * 18 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 25 + 20 - 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 / 27 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 23 * 144 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 * 15 / 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 * 29 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 + 27 / 9 * 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 / 28 + 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 - 11 * 54 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 19 - 162 / 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 15 + 4 * 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 + 5 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 16 + 204 / 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 - 26 * 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 * 28 - 140 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 + 84 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 - 13 / 13 * 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 9 - 84 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 - 34 * 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 / 12 + 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 - 9 * 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 + 12 * 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 108 / 27 - 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 + 75 / 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 8 - 54 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 108 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 95 / 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 22 / 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 13 * 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 + 8 * 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 20 + 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 / 32 - 16 + 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 23 * 16 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 + 26 * 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 * 34 - 16 + 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 9 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 + 60 / 30 - 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 17 + 192 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 112 / 28 - 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 / 30 + 11 - 150 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 23 + 22 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 126 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 112 / 28 * 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 64 / 16 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 * 19 - 48 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 / 29 * 19 + 203 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 42 / 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 + 192 / 32 * 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 * 12 / 4 - 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 / 16 + 27 * 112 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 / 6 - 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 29 / 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 * 21 / 7 + 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 * 6 - 90 / 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 - 29 + 27 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 18 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 150 / 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 + 125 / 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 6 * 16 / 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 - 119 / 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 3 - 14 + 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 3 + 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 46 / 23 + 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 * 99 / 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 + 91 / 13 * 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 6 + 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 + 3 - 46 / 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 45 / 9 + 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 30 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 - 154 / 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 / 8 * 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 63 / 21 * 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 * 66 / 22 + 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 - 29 * 20 / 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 72 / 18 - 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 + 62 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 - 28 + 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 + 28 * 26 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 - 18 + 36 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 - 9 + 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 30 - 17 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 / 6 + 28 - 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 * 8 - 65 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 36 / 18 + 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 / 4 * 26 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 + 70 / 14 - 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 27 * 18 / 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 + 24 * 140 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 5 + 17 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 135 / 27 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 * 6 - 175 / 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 * 23 - 11 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 23 + 10 / 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 4 - 130 / 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 + 42 / 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 29 - 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 / 34 + 29 * 170 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 28 * 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 - 21 * 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 - 3 + 192 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 * 30 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 114 / 19 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 96 / 16 - 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 * 18 - 23 + 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 / 33 * 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 - 25 * 93 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 - 10 + 4 * 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 / 5 - 27 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 80 / 20 + 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 * 9 + 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 - 11 * 135 / 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 - 31 / 31 * 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 * 34 - 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 - 11 + 18 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 - 22 * 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 * 29 + 33 - 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 25 - 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 17 + 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 21 / 21 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 / 5 + 11 * 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 + 21 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 / 14 - 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 * 76 / 19 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 9 + 30 / 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 + 4 * 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 / 8 * 16 - 40 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 / 21 * 3 - 42 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 * 30 - 58 / 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 / 6 + 7 * 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 - 26 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 33 / 33 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 * 24 + 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 33 * 8 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 / 7 * 33 - 35 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 33 * 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 * 85 / 17 + 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 110 / 22 * 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 * 144 / 24 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 / 17 * 24 - 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 + 16 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 96 / 16 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 * 30 / 30 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 / 29 * 15 + 58 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 19 - 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 + 29 - 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 17 + 18 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 - 5 * 19 + 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 - 26 * 68 / 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 / 4 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 7 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 21 + 68 / 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 * 44 / 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 * 8 + 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 + 63 / 21 * 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 / 22 + 10 - 132 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 - 15 / 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 17 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 + 192 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 * 77 / 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 - 21 * 12 + 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 - 4 + 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 + 26 * 25 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 11 + 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 + 18 * 192 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 * 30 + 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 + 12 - 126 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 / 30 * 34 + 90 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 96 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 / 25 + 12 - 150 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 36 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 - 7 + 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 + 4 - 55 / 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 * 9 + 23 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 - 30 + 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 / 7 + 32 - 49 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 + 32 * 29 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 - 8 * 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 5 * 45 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 5 * 48 / 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 * 19 + 22 - 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 * 5 - 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 96 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 + 11 * 25 - 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 * 3 + 16 - 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 112 / 28 * 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 189 / 27 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 4 + 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 / 5 + 26 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 4 - 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 22 - 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 24 * 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 - 17 * 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 / 28 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 * 33 + 42 / 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 3 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 23 / 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 + 33 * 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 25 - 96 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 10 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 + 14 / 7 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 5 + 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 3 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 39 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 29 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 / 5 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 25 + 6 - 175 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 21 - 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 138 / 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 + 9 * 80 / 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 147 / 21 - 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 14 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 28 * 14 - 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 17 / 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 49 / 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 * 20 + 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 / 6 - 8 + 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 31 - 32 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 - 70 / 14 + 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 * 20 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 / 22 * 27 + 154 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 * 13 + 15 - 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 * 20 - 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 / 12 + 12 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 / 20 - 29 + 120 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 56 / 8 * 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 + 31 - 20 * 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 75 / 25 + 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 90 / 15 - 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 / 4 - 5 * 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 - 24 + 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 / 12 * 18 - 60 "
+        },
+        {"option": [], "correct": 0, "quiz": " 105 / 21 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 21 * 112 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 / 18 - 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 20 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 + 204 / 34 * 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 102 / 34 - 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 28 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 / 22 * 14 + 88 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 + 23 * 31 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 162 / 27 + 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 / 4 + 34 * 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 * 72 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 108 / 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 - 26 * 168 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 - 31 * 4 / 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 + 34 - 9 * 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 + 92 / 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 25 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 - 30 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 / 13 * 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 16 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 + 6 / 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 21 + 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 28 - 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 18 + 20 * 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 10 * 40 / 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 6 - 31 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 + 8 - 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 165 / 33 * 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 + 132 / 33 * 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 + 9 - 238 / 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 / 7 - 16 + 35 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 + 21 * 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 * 12 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 / 11 * 21 - 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 * 29 - 28 / 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 11 * 19 - 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 + 95 / 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 * 31 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 63 / 21 + 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 / 30 - 25 * 150 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 / 17 * 31 - 119 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 / 4 + 10 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 180 / 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 - 26 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 * 26 - 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 * 10 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 * 9 - 42 / 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 - 23 + 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 45 / 9 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 / 12 * 9 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 72 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 124 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 30 / 5 + 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 21 - 10 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 * 30 - 6 + 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 9 * 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 85 / 17 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 * 7 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 - 23 * 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 98 / 14 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 / 27 - 26 + 162 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 - 25 + 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 22 * 130 / 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 60 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 + 46 / 23 - 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 18 - 28 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 / 32 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 14 * 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 15 + 11 * 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 * 30 + 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 / 10 + 15 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 64 / 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 8 - 63 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 - 8 * 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 24 + 76 / 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 + 32 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 10 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 5 + 91 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 - 26 + 15 / 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 203 / 29 + 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 22 / 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 42 / 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 * 18 + 25 - 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 + 33 / 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 19 - 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 7 - 15 * 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 - 8 * 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 * 25 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 18 - 20 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 78 / 26 - 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 * 33 + 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 / 33 + 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 + 11 * 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 12 * 8 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 / 29 - 31 * 87 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 * 8 / 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 27 + 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 + 9 - 11 * 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 - 54 / 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 40 / 10 - 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 * 25 / 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 55 / 11 * 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 * 18 - 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 - 29 * 33 + 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 196 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 8 - 16 / 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 + 168 / 24 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 - 28 + 12 / 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 34 + 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 + 126 / 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 / 21 * 21 - 63 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 / 23 * 25 - 92 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 - 14 + 90 / 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 23 + 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 198 / 33 + 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 * 20 / 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 - 13 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 3 + 54 / 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 - 63 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 / 26 + 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 20 + 15 - 40 "
+        },
+        {"option": [], "correct": 0, "quiz": " 48 / 24 - 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 31 + 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 15 * 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 52 / 26 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 13 * 17 - 39 "
+        },
+        {"option": [], "correct": 0, "quiz": " 35 / 5 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 * 12 + 19 - 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 / 10 + 3 * 50 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 69 / 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 20 + 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 - 140 / 28 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 10 + 62 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 * 16 + 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 66 / 33 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 - 5 + 21 * 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 16 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 / 28 - 17 * 196 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 27 - 33 + 108 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 - 162 / 27 + 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 * 14 - 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 * 92 / 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 / 31 * 29 - 217 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 + 24 / 8 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 * 29 - 12 / 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 17 / 17 * 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 - 88 / 22 + 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 / 32 + 19 * 128 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 9 - 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 - 26 * 54 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 36 / 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 * 29 - 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 30 + 72 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 20 * 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 / 13 * 20 - 65 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 / 25 * 31 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 120 / 30 - 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 - 4 + 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 / 3 + 8 - 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 / 32 * 22 + 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 / 25 - 11 + 100 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 + 4 * 18 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 - 65 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 24 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 + 92 / 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 * 96 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 / 15 + 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 * 16 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 36 / 6 - 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 - 22 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 / 5 - 32 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 17 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 132 / 22 - 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 - 18 + 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 * 15 / 3 - 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 - 110 / 22 + 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 30 * 17 + 180 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 144 / 24 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 52 / 13 + 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 32 + 120 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 31 + 7 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 + 26 * 64 / 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 / 15 - 14 * 45 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 33 / 11 * 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 * 24 + 203 / 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 13 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 * 14 - 22 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 - 30 / 15 * 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 - 98 / 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 16 - 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 * 21 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 16 + 20 * 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 110 / 22 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 / 20 - 28 + 60 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 / 33 + 24 * 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 + 25 * 24 - 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 - 10 + 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 8 * 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 * 9 + 31 - 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 26 * 238 / 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 10 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 - 38 / 19 + 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 12 - 16 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 5 - 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 8 - 15 + 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 119 / 17 + 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 / 18 + 32 - 126 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 * 22 - 98 / 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 / 12 * 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 - 27 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 - 13 + 5 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 - 16 + 33 * 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 / 21 + 8 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 24 * 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 - 20 * 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 21 - 27 * 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 / 8 + 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 204 / 34 + 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 / 29 + 32 - 116 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 * 16 - 48 / 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 + 63 / 21 * 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 78 / 13 + 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 12 / 6 - 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 33 + 3 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 14 + 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 - 14 * 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 50 / 10 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 - 20 + 24 * 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 / 31 + 13 - 93 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 182 / 26 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 / 20 * 14 + 120 "
+        },
+        {"option": [], "correct": 0, "quiz": " 210 / 30 + 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 / 12 * 23 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 33 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 168 / 28 - 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 + 90 / 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 14 - 12 / 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 26 / 26 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 * 15 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 - 8 + 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 168 / 24 * 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 * 5 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 - 6 + 78 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 / 17 + 34 - 51 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 14 - 32 * 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 + 3 * 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 * 28 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 6 - 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 / 33 - 26 * 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 / 5 * 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 * 14 + 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 22 + 165 / 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 / 13 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 * 24 / 6 + 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 10 + 168 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 27 + 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 120 / 20 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 * 9 / 3 - 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 / 33 - 21 + 99 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 / 9 - 4 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 + 15 * 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 + 52 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 + 20 - 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 8 + 16 * 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 - 32 / 32 + 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 66 / 22 + 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 - 18 * 60 / 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 8 - 156 / 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 28 - 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 9 * 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 8 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 108 / 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 12 / 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 10 * 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 29 * 105 / 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 114 / 19 - 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 - 33 + 23 * 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 96 / 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 - 29 + 11 * 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 / 24 * 34 + 120 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 / 6 - 24 * 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 48 / 16 + 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 186 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 * 27 + 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 * 4 + 17 - 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 + 8 - 29 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 30 / 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 8 - 54 / 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 * 14 + 54 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 78 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 19 - 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 56 / 28 - 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 + 16 / 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 31 / 31 - 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 / 10 + 20 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 + 13 / 13 - 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 23 * 6 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 10 - 32 / 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 + 32 / 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 36 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 - 10 + 3 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 20 - 28 + 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 + 150 / 30 * 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 + 112 / 16 - 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 192 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 + 27 * 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 21 * 22 - 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 * 16 + 21 - 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 162 / 27 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 140 / 28 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 32 + 18 - 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 13 - 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 / 20 * 23 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 33 * 39 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 * 9 - 31 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 - 168 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 / 34 * 29 + 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 36 / 6 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 + 20 - 5 / 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 26 + 102 / 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 8 + 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 / 33 - 26 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 / 20 * 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 31 + 6 * 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 + 5 * 21 - 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 12 / 12 + 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 / 21 + 16 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 + 3 - 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 156 / 26 - 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 - 15 + 217 / 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 * 42 / 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 115 / 23 + 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 54 / 9 - 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 - 78 / 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 / 13 + 21 * 78 "
+        },
+        {"option": [], "correct": 0, "quiz": " 160 / 32 - 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 22 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 5 * 19 - 35 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 29 + 30 / 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 34 / 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 - 7 * 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 6 + 13 * 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 - 25 + 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 * 25 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 96 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 - 26 / 13 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 34 * 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 / 7 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 * 12 - 5 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 25 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 / 14 * 3 - 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 / 6 + 25 * 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 28 * 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 / 17 + 16 - 102 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 + 10 / 10 - 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 / 22 + 24 - 154 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 30 / 15 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 - 145 / 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 3 - 4 + 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 / 31 + 8 * 217 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 * 34 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 - 46 / 23 + 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 32 * 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 * 98 / 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 / 25 - 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 - 40 / 20 + 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 11 * 128 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 / 21 + 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 / 4 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 * 27 + 203 / 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 108 / 18 * 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 * 11 + 66 / 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 / 14 - 33 * 84 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 + 16 * 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 40 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 + 3 / 3 - 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 * 42 / 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 4 + 14 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 20 / 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 / 23 - 25 + 46 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 + 22 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 / 25 + 32 * 75 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 27 + 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 * 13 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 - 21 * 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 128 / 32 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 / 14 + 30 - 84 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 * 27 / 9 - 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 42 / 6 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 119 / 17 * 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 15 + 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 / 32 - 25 + 160 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 + 51 / 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 / 5 + 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 / 3 - 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 - 10 * 22 / 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 8 * 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 / 3 + 3 * 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 / 11 * 4 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 + 17 * 14 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 + 23 * 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 - 4 + 95 / 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 - 156 / 26 * 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 * 11 - 20 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 + 5 * 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 124 / 31 * 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 66 / 22 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 + 22 - 28 * 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 23 - 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 24 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 * 78 / 26 + 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 16 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 + 11 * 50 / 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 + 30 - 26 * 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 * 18 / 3 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 / 12 - 28 + 84 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 + 21 - 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 / 9 - 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 - 13 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 * 99 / 33 - 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 23 * 17 - 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 11 + 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 * 189 / 27 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 / 21 - 20 * 42 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 - 29 * 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 / 27 * 10 - 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 + 16 / 4 - 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 / 12 + 13 - 84 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 / 8 * 5 + 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 31 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 - 156 / 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 155 / 31 * 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 22 / 11 + 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 + 34 * 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 - 24 * 31 + 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 - 150 / 30 * 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 * 22 + 28 / 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 * 28 - 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 * 84 / 14 - 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 3 * 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 - 105 / 15 + 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 3 - 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 + 88 / 22 - 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 38 / 19 * 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 - 24 * 15 / 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 * 28 - 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 * 192 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 35 / 5 - 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 - 31 * 25 + 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 33 - 34 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 84 / 21 + 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 136 / 34 - 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 - 11 * 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 - 31 * 15 + 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 * 13 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 / 4 - 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 + 145 / 29 * 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 + 22 - 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 + 27 - 26 * 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 * 15 + 26 - 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 - 32 * 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 / 22 + 14 - 66 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 / 3 - 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 45 / 15 - 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 - 27 + 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 34 / 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 50 / 25 * 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 - 25 + 29 * 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 + 24 * 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 - 14 * 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 - 23 + 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 * 46 / 23 - 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 155 / 31 * 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 / 11 * 17 + 66 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 11 - 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 + 110 / 22 - 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 * 32 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 - 72 / 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 - 21 + 29 * 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 / 30 * 7 + 120 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 21 + 30 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 34 + 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 + 16 * 18 - 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 * 34 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 / 28 - 28 + 84 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 + 31 - 33 / 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 + 154 / 22 * 21 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 - 57 / 19 + 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 8 * 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 - 125 / 25 + 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 * 23 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 * 14 - 32 + 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 / 22 * 33 - 88 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 - 9 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 * 28 - 15 / 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 * 10 + 60 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 / 15 - 16 + 60 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 56 / 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 9 - 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 28 - 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 85 / 17 + 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 20 / 20 + 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 + 5 * 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 60 / 15 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 29 + 110 / 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 / 22 - 28 + 110 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 17 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 * 95 / 19 - 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 - 65 / 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 + 10 - 8 * 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 30 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 - 93 / 31 * 26 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 9 - 6 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 238 / 34 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 32 + 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 / 18 - 22 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 196 / 28 + 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 10 - 10 + 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 26 - 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 - 27 * 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 * 5 - 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 42 / 7 - 19 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 / 21 - 15 + 84 "
+        },
+        {"option": [], "correct": 0, "quiz": " 100 / 20 * 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 4 * 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 192 / 32 * 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 + 19 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 15 * 10 + 32 - 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 / 9 * 18 - 63 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 10 * 32 + 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 90 / 15 + 28 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 * 84 / 14 - 23 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 + 31 * 20 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 45 / 15 + 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 * 13 - 26 + 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 + 15 * 28 / 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 * 29 / 29 - 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 + 24 / 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 54 / 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 32 / 32 * 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 - 88 / 22 * 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 / 6 - 29 + 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 + 28 - 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 - 11 + 9 "
+        },
+        {"option": [], "correct": 0, "quiz": " 30 - 35 / 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 12 * 4 - 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 + 26 - 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 + 14 - 72 / 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 / 34 + 16 * 170 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 - 120 / 20 * 17 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 / 24 - 33 * 48 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 * 66 / 22 + 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 4 - 6 "
+        },
+        {"option": [], "correct": 0, "quiz": " 85 / 17 + 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 - 24 / 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 / 29 + 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 * 20 / 10 + 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 * 22 + 11 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 - 11 * 24 / 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 / 29 + 32 * 203 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 - 3 * 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 24 * 13 - 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 11 / 9 - 15 * 45 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 + 34 - 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 * 8 + 18 "
+        },
+        {"option": [], "correct": 0, "quiz": " 33 + 24 * 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 32 * 10 - 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 20 + 48 / 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 4 + 120 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 224 / 32 + 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 155 / 31 * 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 + 11 * 15 - 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 / 8 + 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 * 21 - 32 / 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 10 - 19 * 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 - 30 + 84 / 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 84 / 14 + 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 14 + 48 / 12 "
+        },
+        {"option": [], "correct": 0, "quiz": " 16 * 28 - 15 + 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 6 - 20 + 30 / 15 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 - 5 * 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 * 21 + 14 "
+        },
+        {"option": [], "correct": 0, "quiz": " 3 + 192 / 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 / 14 + 28 - 84 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 + 15 - 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 18 * 19 + 24 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 10 + 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 12 + 12 / 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 7 - 27 + 31 "
+        },
+        {"option": [], "correct": 0, "quiz": " 29 + 17 - 10 * 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 21 * 155 / 31 + 13 "
+        },
+        {"option": [], "correct": 0, "quiz": " 8 / 23 + 20 - 138 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 / 28 - 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 / 32 + 32 - 32 "
+        },
+        {"option": [], "correct": 0, "quiz": " 28 / 27 + 18 * 54 "
+        },
+        {"option": [], "correct": 0, "quiz": " 31 * 19 + 30 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 + 13 * 44 / 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 - 29 + 70 / 10 "
+        },
+        {"option": [], "correct": 0, "quiz": " 13 + 120 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 / 4 * 7 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 24 + 24 / 8 * 4 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 / 18 + 16 * 54 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 * 5 + 3 / 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 * 15 - 7 "
+        },
+        {"option": [], "correct": 0, "quiz": " 25 + 8 / 8 - 5 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 * 18 - 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 23 + 35 / 5 * 8 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 * 140 / 20 "
+        },
+        {"option": [], "correct": 0, "quiz": " 34 / 34 * 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 17 + 6 * 27 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 / 28 + 17 * 140 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 84 / 21 * 29 "
+        },
+        {"option": [], "correct": 0, "quiz": " 22 * 13 + 66 / 33 "
+        },
+        {"option": [], "correct": 0, "quiz": " 19 + 22 * 100 / 25 "
+        },
+        {"option": [], "correct": 0, "quiz": " 5 / 17 - 27 + 34 "
+        },
+        {"option": [], "correct": 0, "quiz": " 9 + 18 / 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 - 44 / 22 "
+        },
+        {"option": [], "correct": 0, "quiz": " 26 * 19 + 32 - 3 "
+        },
+        {"option": [], "correct": 0, "quiz": " 4 + 36 / 12 * 16 "
+        },
+        {"option": [], "correct": 0, "quiz": " 27 / 16 * 21 + 80 "
+        },
+        {"option": [], "correct": 0, "quiz": " 32 * 34 + 13 "
+        }
+    ]
+}

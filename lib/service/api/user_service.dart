@@ -5,16 +5,16 @@ import 'package:kuiz/model/user_model.dart';
 class MyUserService {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
-  Stream<UserModel> getAuthUser(authId) {
-    try {
-      return _firestore.collection('user').doc(authId).snapshots().map((value) {
-        return UserModel.fromJson(value.id, value.data() as Map);
-      });
-    } catch (e) {
-      Get.snackbar('Error', e.toString());
-      rethrow;
-    }
-  }
+  // Stream<UserModel> getAuthUser(authId) {
+  //   try {
+  //     return _firestore.collection('user').doc(authId).snapshots().map((value) {
+  //       return UserModel.fromJson(value.id, value.data() as Map);
+  //     });
+  //   } catch (e) {
+  //     Get.snackbar('Error', e.toString());
+  //     rethrow;
+  //   }
+  // }
 
   Future<UserModel> getAuthUserFuture(authId) async {
     try {

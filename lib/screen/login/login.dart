@@ -39,7 +39,7 @@ class LoginScreen extends GetWidget<AuthController> {
                   Get.to(() => const EmailSignupScreen());
                 },
                 child: LoginButtonWidget(
-                    title: 'Signup', image: 'assets/icon/email.png'),
+                    title: 'Signup', image: 'assets/icons/email.png'),
               ),
               MySize.smallHeight(),
 
