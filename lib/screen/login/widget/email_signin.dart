@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kuiz/controller/auth_controller.dart';
 import 'package:kuiz/util/my_widget.dart';
-
+import '../../../controller/auth_controller.dart';
 import '../../../util/my_size.dart';
 
 class EmailSigninWidget extends StatelessWidget {

@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kuiz/controller/auth_controller.dart';
 
-import 'package:kuiz/controller/user_controller.dart';
+import '../../../controller/auth_controller.dart';
+import '../../../controller/user_controller.dart';
 
-class UserScreen extends StatelessWidget {
+class UserScreen extends GetWidget<UserController> {
   UserScreen({Key? key}) : super(key: key);
-  final controller = Get.put(UserController());
   final auth = Get.put(AuthController());
   @override
   Widget build(BuildContext context) {
@@ -17,9 +16,9 @@ class UserScreen extends StatelessWidget {
               return Card(
                 child: GestureDetector(
                   onTap: () {
-                    auth.blockUser(
+                    controller.blockUser(
                         //controller.firestoreUser.value.userId, element.userId);
-                        auth.userId,
+                        controller.auth.value.userId,
                         element.userId);
                   },
                   child: ListTile(

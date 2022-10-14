@@ -3,17 +3,18 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:kuiz/controller/auth_controller.dart';
 import 'package:kuiz/screen/login/screen/signup.dart';
 import 'package:kuiz/screen/login/widget/email_signin.dart';
 import 'package:kuiz/screen/login/widget/login_button.dart';
 import 'package:kuiz/util/my_widget.dart';
 
+import '../../controller/auth_controller.dart';
 import '../../util/logo_image.dart';
 import '../../util/my_size.dart';
 
-class LoginScreen extends GetWidget<AuthController> {
-  const LoginScreen({Key? key}) : super(key: key);
+class LoginScreen extends StatelessWidget {
+  LoginScreen({Key? key}) : super(key: key);
+  final controller = Get.put(AuthController());
 
   @override
   Widget build(BuildContext context) {

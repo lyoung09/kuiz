@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:kuiz/model/user_model.dart';
 
@@ -18,9 +19,9 @@ class MyUserService {
 
   Future<UserModel> getAuthUserFuture(authId) async {
     try {
-      return _firestore.collection('user').doc(authId).get().then((value) {
-        return UserModel.fromJson(value.id, value.data() as Map);
-      });
+      DocumentSnapshot ds =
+          await _firestore.collection('user').doc(authId).get();
+      return UserModel.fromJson(ds.id, ds.data() as Map);
     } catch (e) {
       Get.snackbar('Error', e.toString());
       rethrow;

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hexcolor/hexcolor.dart';
 
 class Themes {
   final lightThemes = ThemeData.light().copyWith(
@@ -11,7 +12,8 @@ class Themes {
       elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
         primary: Colors.white,
-        onPrimary: Colors.grey[400],
+        onPrimary: HexColor("##03f8fc"),
+        //HexColor("#fc911e")
         elevation: 15,
         // side: const BorderSide(color: Colors.white),
       )),
@@ -23,8 +25,8 @@ class Themes {
         buttonColor: Colors.black,
       ),
       inputDecorationTheme: const InputDecorationTheme(
-        hintStyle: TextStyle(
-            fontSize: 14, fontFamily: 'loraitalic', color: Colors.grey),
+        hintStyle:
+            TextStyle(fontSize: 14, fontFamily: 'italic', color: Colors.grey),
       ),
       textSelectionTheme: const TextSelectionThemeData(
           cursorColor: Colors.black, selectionColor: Colors.black),
@@ -63,8 +65,8 @@ class Themes {
         buttonColor: Colors.white,
       ),
       inputDecorationTheme: const InputDecorationTheme(
-        hintStyle: TextStyle(
-            fontSize: 14, fontFamily: 'loraitalic', color: Colors.grey),
+        hintStyle:
+            TextStyle(fontSize: 14, fontFamily: 'italic', color: Colors.grey),
       ),
       textSelectionTheme: const TextSelectionThemeData(
           cursorColor: Colors.white, selectionColor: Colors.white),

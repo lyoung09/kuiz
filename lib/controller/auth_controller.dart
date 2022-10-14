@@ -1,55 +1,59 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:get_storage/get_storage.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:kuiz/controller/quiz_controller.dart';
 import 'package:kuiz/controller/user_controller.dart';
-import 'package:kuiz/model/user_model.dart';
-import 'package:kuiz/service/util/random.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
-import '../root.dart';
+import '../model/user_model.dart';
 import '../service/api/user_service.dart';
+import '../service/util/random.dart';
 
 class AuthController extends GetxController {
   final FirebaseAuth _auth = FirebaseAuth.instance;
+  final _storage = GetStorage();
+  RxBool loginAuth = false.obs;
 
-  Rxn<User> fireAuthuser = Rxn<User>();
-
-  String? get userId => fireAuthuser.value?.uid;
-
-  Rx<UserModel> authUsermodel =
-      UserModel(userId: '', nickName: '', userEmail: '').obs;
   @override
   void onInit() {
     super.onInit();
-    debugPrint("authcontroller");
-    fireAuthuser.bindStream(_auth.authStateChanges());
-    //handleAuthChanged(fireAuthuser.value);
-    ever(fireAuthuser, handleAuthChanged);
+    //ever(loginAuth, loginSession);
+    saveSession();
   }
 
-  handleAuthChanged(User? fireAuthuser) async {
-    try {
-      if (fireAuthuser != null) {
-        authUsermodel.value = await MyUserService().getAuthUserFuture(userId);
-        update();
-        // Get.find<QuizController>().onStart;
-        // Get.find<UserController>().onStart;
-      } else {
-        authUsermodel = UserModel(userId: '', nickName: '', userEmail: '').obs;
-        update();
-      }
-    } catch (e) {
-      Get.snackbar('error', e.toString());
+  saveSession() async {
+    if (_auth.currentUser != null && _auth.currentUser!.uid.isNotEmpty) {
+      loginAuth = true.obs;
+      Get.find<UserController>().authData(_auth.currentUser!.uid);
+    } else {
+      loginAuth = false.obs;
+    }
+  }
+
+  loginSession(User? user) {
+    if (user != null && user.uid.isNotEmpty) {
+      Get.find<UserController>().authData(user.uid);
+      loginAuth = true.obs;
+    } else {
+      Get.find<UserController>().authData(null);
+      loginAuth = false.obs;
     }
   }
 
   void login(String email, String password) async {
     try {
-      await _auth.signInWithEmailAndPassword(email: email, password: password);
+      UserCredential us = await _auth.signInWithEmailAndPassword(
+          email: email, password: password);
+      // if (us.user != null && us.user!.uid.isNotEmpty) {
+      //   Get.find<UserController>().authData(us.user!.uid);
+      //   loginAuth = true.obs;
+      // }
+      loginSession(us.user);
     } catch (e) {
       Get.snackbar('error', e.toString());
+    } finally {
+      update();
     }
   }
 
@@ -61,32 +65,49 @@ class AuthController extends GetxController {
       UserModel userModel =
           UserModel(userId: us.user!.uid, nickName: nickname, userEmail: email);
 
-      await MyUserService().setUserData(userModel);
+      if (await MyUserService().setUserData(userModel)) {
+        // Get.find<UserController>().authData(userModel.userId);
+        // loginAuth = true.obs;
+        loginSession(us.user);
+      }
     } catch (e) {
       Get.snackbar('error', e.toString());
+    } finally {
+      update();
     }
   }
 
   void googleLogin() async {
-    final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+    try {
+      final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
 
-    final GoogleSignInAuthentication? googleAuth =
-        await googleUser?.authentication;
+      final GoogleSignInAuthentication? googleAuth =
+          await googleUser?.authentication;
 
-    final credential = GoogleAuthProvider.credential(
-      accessToken: googleAuth?.accessToken,
-      idToken: googleAuth?.idToken,
-    );
+      final credential = GoogleAuthProvider.credential(
+        accessToken: googleAuth?.accessToken,
+        idToken: googleAuth?.idToken,
+      );
 
-    UserCredential us = await _auth.signInWithCredential(credential);
+      UserCredential us = await _auth.signInWithCredential(credential);
 
-    if (us.additionalUserInfo!.isNewUser) {
-      UserModel userModel = UserModel(
-          userId: us.user!.uid,
-          nickName: us.user!.displayName ?? '',
-          userEmail: us.user!.email ?? '');
+      if (us.additionalUserInfo!.isNewUser) {
+        UserModel userModel = UserModel(
+            userId: us.user!.uid,
+            nickName: us.user!.displayName ?? '',
+            userEmail: us.user!.email ?? '');
 
-      await MyUserService().setUserData(userModel);
+        if (await MyUserService().setUserData(userModel)) {
+          // Get.find<UserController>().authData(userModel.userId);
+          // loginAuth = true.obs;
+          loginSession(us.user);
+        }
+      } else {
+        loginSession(us.user);
+      }
+      update();
+    } catch (e) {
+      Get.snackbar('error', 'google login');
     }
   }
 
@@ -106,7 +127,6 @@ class AuthController extends GetxController {
       );
       UserCredential us = await _auth.signInWithCredential(credential);
 
-      debugPrint(us.user.toString());
       if (us.additionalUserInfo!.isNewUser) {
         String nickname =
             us.user!.displayName ?? RandomHelper().generateRandomString(5);
@@ -114,11 +134,17 @@ class AuthController extends GetxController {
             userId: us.user!.uid,
             nickName: nickname,
             userEmail: us.user!.email ?? '');
-
-        await MyUserService().setUserData(userModel);
+        if (await MyUserService().setUserData(userModel)) {
+          Get.find<UserController>().authData(userModel.userId);
+          loginAuth = true.obs;
+        }
+      } else {
+        loginSession(us.user);
       }
     } catch (e) {
       Get.snackbar('Error', e.toString());
+    } finally {
+      update();
     }
   }
 
@@ -127,27 +153,22 @@ class AuthController extends GetxController {
 
   void signOut() async {
     try {
-      Get.find<UserController>().onDelete;
-      Get.find<QuizController>().onDelete;
-
       await _auth.signOut();
+
+      loginSession(null);
+      update();
     } catch (e) {
-      Get.snackbar('error', e.toString());
-    }
+      Get.snackbar('error logout', e.toString());
+    } finally {}
   }
 
-  deleteUser() {}
-
-  blockUser(authId, otherId) async {
+  deleteUser() {
     try {
-      if (authUsermodel.value.block != null &&
-          authUsermodel.value.block!.contains(otherId)) {
-        await MyUserService().unblockUser(authId, otherId);
-      } else {
-        await MyUserService().blockUser(authId, otherId);
-      }
+      loginSession(null);
     } catch (e) {
-      debugPrint(e.toString());
+      Get.snackbar('error', e.toString());
+    } finally {
+      update();
     }
   }
 }

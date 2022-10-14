@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kuiz/controller/setting_controller.dart';
 import 'package:kuiz/screen/bottom/profile/profile.dart';
 import 'package:kuiz/screen/bottom/quiz/quiz.dart';
 import 'package:kuiz/screen/bottom/user/user.dart';
@@ -18,14 +17,10 @@ class BottomTap extends StatefulWidget {
 
 class _BottomTapState extends State<BottomTap> {
   int _selectedIndex = 0;
-  final settingController = Get.put(SettingController());
+
   @override
   void initState() {
     super.initState();
-
-    // DateTime yourTime = DateTime.now().add(Duration(minutes: 1));
-    // VoidCallback yourAction = settingController.newTime();
-    //Timer(yourTime.difference(DateTime.now()), yourAction);
   }
 
   @override

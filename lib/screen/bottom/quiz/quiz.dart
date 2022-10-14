@@ -1,21 +1,94 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kuiz/controller/auth_controller.dart';
-import 'package:kuiz/controller/user_controller.dart';
+import 'package:hexcolor/hexcolor.dart';
+import 'package:kuiz/util/my_textform.dart';
 
 class Quiz extends StatelessWidget {
   Quiz({Key? key}) : super(key: key);
-  final auth = Get.put(AuthController());
-  final user = Get.put(UserController());
+
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: TextButton(
-        child: Text('Quiz'),
-        onPressed: () {
-          auth.signOut();
-        },
-      ),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Center(
+          child: ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                    side: BorderSide(color: HexColor("##03f8fc"))),
+                primary: HexColor("##03f8fc"),
+                elevation: 1),
+            child: Text('opBold', style: MyTextStyle.opBold(context)),
+            onPressed: () {},
+          ),
+        ),
+        Center(
+          child: Text('appbarText', style: MyTextStyle.appbarText(context)),
+        ),
+        Center(
+          child: ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                    side: BorderSide(color: HexColor("##03f8fc"))),
+                primary: HexColor("##03f8fc"),
+                elevation: 1),
+            child: Text('opSemiBold', style: MyTextStyle.opSemiBold(context)),
+            onPressed: () {},
+          ),
+        ),
+        Center(
+          child: ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                    side: BorderSide(color: HexColor("##03f8fc"))),
+                primary: HexColor("##03f8fc"),
+                elevation: 1),
+            child: Text('opMedium', style: MyTextStyle.opMedium(context)),
+            onPressed: () {},
+          ),
+        ),
+        Center(
+          child: ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                    side: BorderSide(color: HexColor("##03f8fc"))),
+                primary: HexColor("##03f8fc"),
+                elevation: 1),
+            child: Text('opRegular', style: MyTextStyle.opRegular(context)),
+            onPressed: () {},
+          ),
+        ),
+        Center(
+          child: ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                    side: BorderSide(color: HexColor("##03f8fc"))),
+                primary: HexColor("##03f8fc"),
+                elevation: 1),
+            child: Text('opLight', style: MyTextStyle.opLight(context)),
+            onPressed: () {},
+          ),
+        ),
+        Center(
+          child: ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                    side: BorderSide(color: HexColor("##03f8fc"))),
+                primary: HexColor("##03f8fc"),
+                elevation: 1),
+            child:
+                Text('italicText', style: MyTextStyle.opMediumItalic(context)),
+            onPressed: () {},
+          ),
+        ),
+      ],
     );
   }
 }
