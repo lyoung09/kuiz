@@ -38,6 +38,11 @@ class LoginScreen extends StatelessWidget {
               GestureDetector(
                 onTap: () {
                   Get.to(() => const EmailSignupScreen());
+                  FocusScopeNode currentFocus = FocusScope.of(context);
+                  if (!currentFocus.hasPrimaryFocus &&
+                      currentFocus.focusedChild != null) {
+                    currentFocus.focusedChild!.unfocus();
+                  }
                 },
                 child: LoginButtonWidget(
                     title: 'Signup', image: 'assets/icons/email.png'),

@@ -59,6 +59,8 @@ dependencies:
   path_provider: ^2.0.11
   path: ^1.8.1
   hexcolor: ^2.0.6
+  flutter_image_compress: ^1.1.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -92,6 +94,8 @@ flutter:
     - assets/icons/email.png
     - assets/icons/languages.png
     - assets/icons/math.png
+    - assets/icons/bell.png
+    - assets/icons/global.png
     - assets/icons/kuiz.png    
     - assets/icons/notifications.png    
     - assets/icons/selectlang.png    
@@ -136,6 +140,30 @@ flutter:
     - family: opItalic
       fonts:
         - asset: assets/opensans/OpenSans-MediumItalic.ttf
+    - family: notoBlackItalic
+      fonts:
+        - asset: assets/notosans/NotoSans-BlackItalic.ttf
+    - family: notoMediumItalic
+      fonts:
+        - asset: assets/notosans/NotoSans-MediumItalic.ttf
+    - family: notoMedium
+      fonts:
+        - asset: assets/notosans/NotoSans-Medium.ttf
+    - family: notoBlack
+      fonts:
+        - asset: assets/notosans/NotoSans-Black.ttf
+    - family: notoExtraBold
+      fonts:
+        - asset: assets/notosans/NotoSans-ExtraBold.ttf
+    - family: notoRegular
+      fonts:
+        - asset: assets/notosans/NotoSans-Regular.ttf
+    - family: notoSemiBold
+      fonts:
+        - asset: assets/notosans/NotoSans-SemiBold.ttf
+    - family: notoLight
+      fonts:
+        - asset: assets/notosans/NotoSans-Light.ttf
         
 
   

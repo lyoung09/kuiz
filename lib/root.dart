@@ -35,8 +35,6 @@ class _RootState extends State<Root> {
     return GetBuilder<AuthController>(
         init: AuthController(),
         builder: (_) {
-          debugPrint(_.loginAuth.value.toString() + 'aaaaa');
-
           return _.loginAuth.value == true ? BottomTap() : LoginScreen();
         });
   }

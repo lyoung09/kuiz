@@ -22,6 +22,14 @@
 	</array>
 	<key>CFBundleName</key>
 	<string>kuiz</string>
+		<key>NSCameraUsageDescription</key>
+	<string>we need this so that you can share photo from your live photo</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>we need this so that you can share photos from your photo library.</string>
+	<key>NSUserNotificationAlertStyle</key>
+	<string>banner</string>
+	<key>NSUserTrackingUsageDescription</key>
+   <string>This identifier will be used to deliver new offers for you.</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

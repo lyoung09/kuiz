@@ -2,7 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kuiz/screen/bottom/profile/profile.dart';
+import 'package:kuiz/screen/bottom/profile/auth_profile.dart';
+import 'package:kuiz/screen/bottom/profile/user_profile.dart';
 import 'package:kuiz/screen/bottom/quiz/quiz.dart';
 import 'package:kuiz/screen/bottom/user/user.dart';
 
@@ -32,7 +33,7 @@ class _BottomTapState extends State<BottomTap> {
     Home(),
     Quiz(),
     UserScreen(),
-    Profile(),
+    AuthProfile(),
   ];
 
   @override

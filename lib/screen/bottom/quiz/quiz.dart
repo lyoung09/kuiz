@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:kuiz/util/my_textform.dart';
+import 'package:kuiz/util/my_textstyle.dart';
 
 class Quiz extends StatelessWidget {
   Quiz({Key? key}) : super(key: key);

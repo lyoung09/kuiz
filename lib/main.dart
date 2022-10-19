@@ -1,12 +1,13 @@
-
 import 'package:firebase_app_check/firebase_app_check.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:kuiz/controller/setting_controller.dart';
 
 import 'package:kuiz/root.dart';
 import 'controller/binding/auth_binding.dart';
+import 'service/setting/theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,9 +17,9 @@ void main() async {
   await GetStorage.init();
 
   runApp(const MyApp());
-
- 
 }
+
+final settingController = Get.put(SettingController());
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -31,28 +32,9 @@ class MyApp extends StatelessWidget {
       home: const Root(),
       initialBinding: AuthBinding(),
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      // getPages: [
-      //   GetPage(
-      //     name: '/splash',
-      //     page: () => const SplashScreen(),
-      //     binding: SettingBinding(),
-      //   ),
-      //   GetPage(
-      //     name: '/login',
-      //     page: () => LoginScreen(),
-      //     binding: ABinding(),
-      //   ),
-      //   GetPage(
-      //     name: '/bottom',
-      //     page: () => const BottomTap(),
-      //     binding: Bbinding(),
-      //   ),
-      // ],
-
-      // home: const Root(),
+      theme: Themes().lightThemes,
+      darkTheme: Themes().darkThemes,
+      themeMode: settingController.getThemeMode(),
     );
   }
 }

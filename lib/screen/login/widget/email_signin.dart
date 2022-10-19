@@ -16,9 +16,9 @@ class EmailSigninWidget extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          MyWidget().myTextformfield(context, _emailController),
+          MyWidget().myTextformfield(context, _emailController, null),
           MySize.smallerHeight(),
-          MyWidget().myTextformfield(context, _passwordController),
+          MyWidget().myTextformfield(context, _passwordController, null),
           MySize.bigHeight(),
           Center(
             child: Card(

@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:developer' as d;
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -7,10 +6,8 @@ import 'package:http/http.dart' as http;
 import 'package:kuiz/model/quiz_model.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:function_tree/function_tree.dart';
-import 'package:path_provider/path_provider.dart';
 import 'dart:math';
 
-import '../../data/math_quiz.dart';
 
 class QuizJson {
   Random random = Random();

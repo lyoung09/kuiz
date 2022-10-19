@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:kuiz/model/user_model.dart';
+import 'package:kuiz/service/camera/my_storage.dart';
 
 class MyUserService {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
@@ -43,8 +44,35 @@ class MyUserService {
 
   Future<bool> setUserData(UserModel userModel) async {
     try {
+
+            String? profile = await MyStroage().getUserImage(userModel.userEmail);
+
       _firestore.collection('user').doc(userModel.userId).set(
-          {'nickName': userModel.nickName, 'userEmail': userModel.userEmail});
+          {'nickName': userModel.nickName, 'userEmail': userModel.userEmail,'profile':profile});
+      return true;
+    } catch (e) {
+      Get.snackbar('error', e.toString());
+      return false;
+    }
+  }
+
+  Future<bool> updateUserData(
+      UserModel userModel, String? nickname, String? bio) async {
+    try {
+      String? profile = await MyStroage().getUserImage(userModel.userEmail);
+      if (userModel.profile != profile) {
+        _firestore.collection('user').doc(userModel.userId).update({
+          'nickName': nickname ?? userModel.nickName,
+          'bio': bio ?? userModel.bio,
+          'profile': profile 
+        });
+      } else {
+        _firestore.collection('user').doc(userModel.userId).update({
+          'nickName': nickname ?? userModel.nickName,
+          'bio': bio ?? userModel.bio,
+          
+        });
+      }
       return true;
     } catch (e) {
       Get.snackbar('error', e.toString());

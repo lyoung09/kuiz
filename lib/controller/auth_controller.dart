@@ -7,6 +7,7 @@ import 'package:kuiz/controller/user_controller.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
 import '../model/user_model.dart';
+import '../root.dart';
 import '../service/api/user_service.dart';
 import '../service/util/random.dart';
 
@@ -14,6 +15,8 @@ class AuthController extends GetxController {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final _storage = GetStorage();
   RxBool loginAuth = false.obs;
+
+  String? getauthuser() => _auth.currentUser!.uid;
 
   @override
   void onInit() {
@@ -39,6 +42,7 @@ class AuthController extends GetxController {
       Get.find<UserController>().authData(null);
       loginAuth = false.obs;
     }
+    Get.offAll(() => const Root());
   }
 
   void login(String email, String password) async {
@@ -149,7 +153,6 @@ class AuthController extends GetxController {
   }
 
   forgetpassword() {}
-  updateUser() {}
 
   void signOut() async {
     try {

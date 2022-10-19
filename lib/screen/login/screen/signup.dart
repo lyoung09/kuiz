@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:kuiz/service/camera/my_storage.dart';
 import 'package:kuiz/util/my_size.dart';
 import '../../../controller/auth_controller.dart';
+import '../../../service/camera/camera_service.dart';
 import '../../../util/my_widget.dart';
 
 class EmailSignupScreen extends StatefulWidget {
@@ -16,7 +19,9 @@ class _EmailSignupScreenState extends State<EmailSignupScreen> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _nicknameController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
+  final TextEditingController _bioController = TextEditingController();
   final auth = Get.put(AuthController());
+  PickedFile? image;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -42,7 +47,7 @@ class _EmailSignupScreenState extends State<EmailSignupScreen> {
                           radius: 20.0,
                           child: IconButton(
                             onPressed: () {
-                              //showBottomCameraModal(context);
+                              showBottomCameraModal(context);
                             },
                             icon: const Icon(
                               Icons.camera_alt,
@@ -57,11 +62,15 @@ class _EmailSignupScreenState extends State<EmailSignupScreen> {
                   ),
                 )),
                 MySize.bigHeight(),
-                MyWidget().myTextformfield(context, _emailController),
+                MyWidget().myTextformfield(context, _emailController, 'email'),
                 MySize.bigHeight(),
-                MyWidget().myTextformfield(context, _passwordController),
+                MyWidget()
+                    .myTextformfield(context, _passwordController, 'password'),
                 MySize.bigHeight(),
-                MyWidget().myTextformfield(context, _nicknameController),
+                MyWidget()
+                    .myTextformfield(context, _nicknameController, 'nickanme'),
+                MySize.bigHeight(),
+                MyWidget().bioTextformfield(context, _bioController, null),
                 MySize.biggerHeight(),
                 Center(
                   child: Card(
@@ -81,6 +90,9 @@ class _EmailSignupScreenState extends State<EmailSignupScreen> {
                           String password = _passwordController.text.trim();
                           String nickname = _nicknameController.text.trim();
 
+                          if (image != null) {
+                            MyStroage().uploadUserImage(image!, email);
+                          }
                           auth.createUser(email, password, nickname);
                         }
                       },
@@ -95,5 +107,53 @@ class _EmailSignupScreenState extends State<EmailSignupScreen> {
             ),
           )),
     );
+  }
+
+  showBottomCameraModal(context) {
+    showModalBottomSheet(
+        context: context,
+        builder: (context) {
+          return Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              ListTile(
+                title: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const Icon(Icons.camera_alt_rounded),
+                    const Padding(padding: EdgeInsets.only(right: 20)),
+                    Text('co_camera'.tr),
+                  ],
+                ),
+                onTap: () async {
+                  image = await CameraService().getImageFromCamera();
+                },
+              ),
+              ListTile(
+                //leading: Icon(Icons.alarm_add_rounded),
+                title: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const Icon(Icons.photo),
+                    const Padding(padding: EdgeInsets.only(right: 20)),
+                    Text('co_album'.tr),
+                  ],
+                ),
+                onTap: () async {
+                  image = await CameraService().getImageFromGallery();
+                  Get.back();
+                },
+              ),
+              ListTile(
+                title: Center(
+                    child: Text('co_cancel'.tr,
+                        style: TextStyle(color: Colors.grey[600]))),
+                onTap: () {
+                  Get.back();
+                },
+              ),
+            ],
+          );
+        });
   }
 }

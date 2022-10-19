@@ -5,6 +5,7 @@ class UserModel {
   String? profile;
   String? token;
   String? lang;
+  String? bio;
   int? mathLevel;
   int? langLevel;
   int? cryptoLevel;
@@ -20,6 +21,7 @@ class UserModel {
       this.profile,
       this.token,
       this.lang,
+      this.bio,
       this.quizAvg,
       this.mathLevel,
       this.langLevel,
@@ -37,6 +39,7 @@ class UserModel {
         profile: json['profile'],
         token: json['token'],
         lang: json['lang'],
+        bio: json['bio'],
         quizAvg: json['quizAvg'],
         mathLevel: json['mathLevel'],
         langLevel: json['langLevel'],
@@ -54,6 +57,7 @@ class UserModel {
         'profile': profile,
         'token': token,
         'lang': lang,
+        'bio': bio,
         'quizAvg': quizAvg,
         'mathLevel': mathLevel,
         'langLevel': langLevel,
