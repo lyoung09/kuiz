@@ -3,12 +3,12 @@ import 'package:get/get.dart';
 
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:kuiz/controller/auth_controller.dart';
-import 'package:kuiz/screen/bottom/profile/setting/widget/my_setting.dart';
+import 'package:kuiz/screen/bottom/3profile/setting/screen/block/block_screen.dart';
+import 'package:kuiz/screen/bottom/3profile/setting/widget/my_setting.dart';
 import 'package:kuiz/util/my_size.dart';
 import 'package:kuiz/util/my_textstyle.dart';
 
 import '../../../../controller/user_controller.dart';
-import 'block/block_screen.dart';
 
 class SettingScreen extends StatelessWidget {
   final UserController userController;
@@ -131,6 +131,8 @@ class SettingScreen extends StatelessWidget {
                           userController.auth.value.following.toString());
 
                       debugPrint(userController.auth.value.toString());
+
+                      auth.deleteUser();
                     },
                     child: Container(
                       padding: const EdgeInsets.symmetric(

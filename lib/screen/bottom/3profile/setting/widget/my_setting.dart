@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:kuiz/controller/setting_controller.dart';
-import 'package:kuiz/screen/bottom/profile/setting/widget/theme_toggle.dart';
+import 'package:kuiz/screen/bottom/3profile/setting/widget/theme_toggle.dart';
 import 'package:kuiz/util/my_size.dart';
 import 'package:kuiz/util/my_textstyle.dart';
 

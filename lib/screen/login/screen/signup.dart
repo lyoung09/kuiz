@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
@@ -22,6 +24,13 @@ class _EmailSignupScreenState extends State<EmailSignupScreen> {
   final TextEditingController _bioController = TextEditingController();
   final auth = Get.put(AuthController());
   PickedFile? image;
+
+  @override
+  void initState() {
+    image = null;
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,35 +41,57 @@ class _EmailSignupScreenState extends State<EmailSignupScreen> {
               children: [
                 MySize.biggestHeight(),
                 MySize.biggestHeight(),
-                Center(
-                    child: SizedBox(
-                  child: CircleAvatar(
-                    radius: 65.0,
-                    backgroundColor: Colors.white,
-                    child: CircleAvatar(
-                      radius: 55.0,
-                      backgroundColor: Colors.white,
-                      child: Align(
-                        alignment: Alignment.bottomRight,
+                image != null
+                    ? Center(
+                        child: SizedBox(
                         child: CircleAvatar(
-                          backgroundColor: Colors.white,
-                          radius: 20.0,
-                          child: IconButton(
-                            onPressed: () {
-                              showBottomCameraModal(context);
-                            },
-                            icon: const Icon(
-                              Icons.camera_alt,
-                              size: 20.0,
-                              color: Color(0xFF404040),
+                          radius: 55.0,
+                          backgroundImage: Image.file(File(image!.path)).image,
+                          child: Align(
+                            alignment: Alignment.bottomRight,
+                            child: CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 20.0,
+                              child: IconButton(
+                                onPressed: () {
+                                  showBottomCameraModal(context);
+                                },
+                                icon: const Icon(
+                                  Icons.camera_alt,
+                                  size: 20.0,
+                                  color: Color(0xFF404040),
+                                ),
+                              ),
                             ),
                           ),
                         ),
-                      ),
-                      //backgroundImage: ,
-                    ),
-                  ),
-                )),
+                      ))
+                    : Center(
+                        child: SizedBox(
+                        child: CircleAvatar(
+                          radius: 55.0,
+                          backgroundImage:
+                              const AssetImage('assets/icons/my.png'),
+                          child: Align(
+                            alignment: Alignment.bottomRight,
+                            child: CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 20.0,
+                              child: IconButton(
+                                onPressed: () {
+                                  showBottomCameraModal(context);
+                                },
+                                icon: const Icon(
+                                  Icons.camera_alt,
+                                  size: 20.0,
+                                  color: Color(0xFF404040),
+                                ),
+                              ),
+                            ),
+                          ),
+                          //backgroundImage: ,
+                        ),
+                      )),
                 MySize.bigHeight(),
                 MyWidget().myTextformfield(context, _emailController, 'email'),
                 MySize.bigHeight(),
@@ -90,10 +121,7 @@ class _EmailSignupScreenState extends State<EmailSignupScreen> {
                           String password = _passwordController.text.trim();
                           String nickname = _nicknameController.text.trim();
 
-                          if (image != null) {
-                            MyStroage().uploadUserImage(image!, email);
-                          }
-                          auth.createUser(email, password, nickname);
+                          auth.createUser(email, password, nickname, image);
                         }
                       },
                       child: const Text(
@@ -127,6 +155,9 @@ class _EmailSignupScreenState extends State<EmailSignupScreen> {
                 ),
                 onTap: () async {
                   image = await CameraService().getImageFromCamera();
+
+                  setState(() {});
+                  Get.back();
                 },
               ),
               ListTile(
@@ -141,6 +172,7 @@ class _EmailSignupScreenState extends State<EmailSignupScreen> {
                 ),
                 onTap: () async {
                   image = await CameraService().getImageFromGallery();
+                  setState(() {});
                   Get.back();
                 },
               ),

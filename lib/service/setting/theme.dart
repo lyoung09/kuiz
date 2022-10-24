@@ -12,11 +12,13 @@ class Themes {
       elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
         primary: Colors.white,
-        onPrimary: HexColor("##03f8fc"),
+        onPrimary: HexColor("##c7daec"),
         //HexColor("#fc911e")
         elevation: 15,
         // side: const BorderSide(color: Colors.white),
       )),
+      colorScheme: const ColorScheme.light()
+          .copyWith(primary: HexColor("##c7daec"), secondary: Colors.black),
       indicatorColor: Colors.black,
       tabBarTheme: const TabBarTheme(
           labelColor: Colors.black, unselectedLabelColor: Colors.black),
@@ -59,6 +61,8 @@ class Themes {
         onPrimary: Colors.grey[400],
         //side: const BorderSide(color: Colors.black),
       )),
+      colorScheme: const ColorScheme.light()
+          .copyWith(primary: HexColor("##c7daec"), secondary: Colors.white),
       tabBarTheme: const TabBarTheme(
           labelColor: Colors.grey, unselectedLabelColor: Colors.grey),
       buttonTheme: const ButtonThemeData(

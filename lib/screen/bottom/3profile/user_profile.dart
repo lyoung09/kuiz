@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:kuiz/controller/user_controller.dart';
 import 'package:kuiz/data/user_db.dart';
 import 'package:kuiz/model/user_model.dart';
-import 'package:kuiz/screen/bottom/profile/widget/silver_persistent.dart';
+import 'package:kuiz/screen/bottom/3profile/widget/silver_persistent.dart';
 import 'package:kuiz/util/my_size.dart';
 import 'package:kuiz/util/my_textstyle.dart';
 import 'package:kuiz/util/my_widget.dart';

@@ -1,9 +1,10 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:kuiz/controller/auth_controller.dart';
 import 'package:kuiz/controller/user_controller.dart';
-import 'package:kuiz/screen/bottom/Profile/widget/silver_persistent.dart';
+import 'package:kuiz/screen/bottom/3profile/widget/silver_persistent.dart';
 import 'package:kuiz/util/my_size.dart';
 import 'package:kuiz/util/my_textstyle.dart';
 
@@ -158,20 +159,42 @@ class _AuthProfileState extends State<AuthProfile> {
                 MySize.smallestWidth(),
                 Expanded(
                   flex: 8,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
-                      Obx(() => UserWidget().userNicknameWidget(
-                          userController.auth.value.nickName, context)),
-                      MySize.smallestHeight(),
-                      Text(
-                        'follower : 457   , following  :  75',
-                        style: MyTextStyle.opMediumItalic(context),
-                        maxLines: 3,
-                      ),
-                    ],
-                  ),
+                  child: Obx(() => Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          UserWidget().userNicknameWidget(
+                              userController.auth.value.nickName, context),
+                          MySize.smallestHeight(),
+                          RichText(
+                              text: TextSpan(children: [
+                            TextSpan(
+                              text: 'follower',
+                              style: MyTextStyle.opMediumItalic(context),
+                            ),
+                            TextSpan(
+                                text:
+                                    ': ${userController.auth.value.follower == null ? 0 : userController.auth.value.follower?.length.toString()}\t\t',
+                                style: MyTextStyle.opMediumItalic(context),
+                                recognizer: TapGestureRecognizer()
+                                  ..onTap = () {
+                                    //Get.to(() => PrivatePolicyWidget());
+                                  }),
+                            TextSpan(
+                              text: 'following',
+                              style: MyTextStyle.opMediumItalic(context),
+                            ),
+                            TextSpan(
+                                text:
+                                    ': ${userController.auth.value.following == null ? 0 : userController.auth.value.following?.length.toString()}',
+                                style: MyTextStyle.opMediumItalic(context),
+                                recognizer: TapGestureRecognizer()
+                                  ..onTap = () {
+                                    //Get.to(() => PrivatePolicyWidget());
+                                  }),
+                          ])),
+                        ],
+                      )),
                 ),
                 MySize.smallerHeight(),
               ],

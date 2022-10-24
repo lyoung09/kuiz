@@ -60,7 +60,10 @@ dependencies:
   path: ^1.8.1
   hexcolor: ^2.0.6
   flutter_image_compress: ^1.1.0
-
+  photo_view: ^0.14.0
+  flutter_easyloading: ^3.0.5
+  hashtagable: ^2.1.0
+  carousel_slider: ^4.1.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -106,6 +109,11 @@ flutter:
     - assets/json/math3.json
     - assets/json/math4.json
     - assets/json/math5.json
+
+
+    - assets/category/culture.png
+    - assets/category/history.png
+    - assets/category/language.png
     
     
 

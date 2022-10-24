@@ -3,7 +3,9 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:image_picker/image_picker.dart';
 import 'package:kuiz/model/user_model.dart';
+import 'package:kuiz/service/camera/my_storage.dart';
 import '../service/api/user_service.dart';
 
 class UserController extends GetxController {
@@ -60,6 +62,37 @@ class UserController extends GetxController {
     }
   }
 
+  updateUser(
+      UserModel auth, String? nickname, String? bio, PickedFile? image) async {
+    try {
+      await MyUserService().updateUserData(auth, nickname, bio, image);
+    } catch (e) {
+      Get.snackbar('error', 'update error ${e.toString()}');
+    } finally {
+      authData(auth.userId);
+    }
+  }
+
+  followkUser(authId, otherId) async {
+    try {
+      await MyUserService().follow(authId, otherId);
+    } catch (e) {
+      debugPrint(e.toString());
+    } finally {
+      authData(authId);
+    }
+  }
+
+  unfollowkUser(authId, otherId) async {
+    try {
+      await MyUserService().unfollow(authId, otherId);
+    } catch (e) {
+      debugPrint(e.toString());
+    } finally {
+      authData(authId);
+    }
+  }
+
   blockUserListController(auth) async {
     try {
       var list = await MyUserService().getAllUserData();
@@ -72,6 +105,16 @@ class UserController extends GetxController {
       blockUserList.addAll(list);
     } catch (e) {
       Get.snackbar('error', 'user list not working ${e.toString()}');
+    }
+  }
+
+  deleteUser(auth) async {
+    try {
+      await MyStroage().deleteUserImage(auth);
+    } catch (e) {
+      debugPrint(e.toString());
+    } finally {
+      authData(auth);
     }
   }
 }

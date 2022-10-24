@@ -3,12 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:image_picker/image_picker.dart';
 import 'package:kuiz/controller/user_controller.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
 import '../model/user_model.dart';
 import '../root.dart';
 import '../service/api/user_service.dart';
+import '../service/camera/my_storage.dart';
 import '../service/util/random.dart';
 
 class AuthController extends GetxController {
@@ -61,18 +63,26 @@ class AuthController extends GetxController {
     }
   }
 
-  void createUser(String email, String password, String nickname) async {
+  void createUser(
+      String email, String password, String nickname, PickedFile? image) async {
     try {
       UserCredential us = await _auth.createUserWithEmailAndPassword(
           email: email, password: password);
 
-      UserModel userModel =
-          UserModel(userId: us.user!.uid, nickName: nickname, userEmail: email);
+      UserModel userModel = UserModel(
+        userId: us.user!.uid,
+        nickName: nickname,
+        userEmail: email,
+      );
 
-      if (await MyUserService().setUserData(userModel)) {
+      if (await MyUserService().setUserData(userModel, image)) {
         // Get.find<UserController>().authData(userModel.userId);
         // loginAuth = true.obs;
         loginSession(us.user);
+      } else {
+        if (image != null) {
+          await MyStroage().deleteUserImage(us.user!.uid);
+        }
       }
     } catch (e) {
       Get.snackbar('error', e.toString());
@@ -99,9 +109,10 @@ class AuthController extends GetxController {
         UserModel userModel = UserModel(
             userId: us.user!.uid,
             nickName: us.user!.displayName ?? '',
-            userEmail: us.user!.email ?? '');
+            userEmail: us.user!.email ?? '',
+            profile: us.user!.photoURL);
 
-        if (await MyUserService().setUserData(userModel)) {
+        if (await MyUserService().setUserData(userModel, null)) {
           // Get.find<UserController>().authData(userModel.userId);
           // loginAuth = true.obs;
           loginSession(us.user);
@@ -137,8 +148,9 @@ class AuthController extends GetxController {
         UserModel userModel = UserModel(
             userId: us.user!.uid,
             nickName: nickname,
-            userEmail: us.user!.email ?? '');
-        if (await MyUserService().setUserData(userModel)) {
+            userEmail: us.user!.email ?? '',
+            profile: us.user!.photoURL);
+        if (await MyUserService().setUserData(userModel, null)) {
           Get.find<UserController>().authData(userModel.userId);
           loginAuth = true.obs;
         }
@@ -165,8 +177,11 @@ class AuthController extends GetxController {
     } finally {}
   }
 
-  deleteUser() {
+  deleteUser() async {
     try {
+      Get.find<UserController>().deleteUser(_auth.currentUser!.uid);
+      // await _auth.currentUser!.delete();
+      debugPrint(_auth.currentUser.toString());
       loginSession(null);
     } catch (e) {
       Get.snackbar('error', e.toString());

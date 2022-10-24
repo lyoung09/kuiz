@@ -2,15 +2,16 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kuiz/screen/bottom/profile/auth_profile.dart';
-import 'package:kuiz/screen/bottom/profile/user_profile.dart';
-import 'package:kuiz/screen/bottom/quiz/quiz.dart';
-import 'package:kuiz/screen/bottom/user/user.dart';
+import 'package:kuiz/screen/bottom/3profile/auth_profile.dart';
 
-import 'home/home.dart';
+import 'package:kuiz/screen/bottom/2user/user.dart';
+
+import '1category/category.dart';
+import '0home/home.dart';
 
 class BottomTap extends StatefulWidget {
-  const BottomTap({Key? key}) : super(key: key);
+  int? index;
+  BottomTap({Key? key, this.index}) : super(key: key);
 
   @override
   State<BottomTap> createState() => _BottomTapState();
@@ -22,6 +23,7 @@ class _BottomTapState extends State<BottomTap> {
   @override
   void initState() {
     super.initState();
+    widget.index != null ? _selectedIndex = widget.index! : _selectedIndex = 0;
   }
 
   @override
@@ -31,7 +33,7 @@ class _BottomTapState extends State<BottomTap> {
 
   final List<Widget> widgetOptions = [
     Home(),
-    Quiz(),
+    CategoryScreen(),
     UserScreen(),
     AuthProfile(),
   ];

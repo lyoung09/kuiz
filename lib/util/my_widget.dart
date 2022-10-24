@@ -16,6 +16,18 @@ class MyWidget {
     );
   }
 
+  Widget myListDivider() {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 3),
+      child: Divider(
+        color: SettingController().isSavedDarkMode()
+            ? Colors.white
+            : Colors.grey[400],
+        thickness: 0.15,
+      ),
+    );
+  }
+
   Widget myDividerLittleHorizon() {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 8),
@@ -41,6 +53,7 @@ class MyWidget {
               if (text!.isEmpty) {
                 return 'Error';
               }
+
               return null;
             }));
   }
@@ -60,6 +73,9 @@ class MyWidget {
             decoration: InputDecoration(
               hintText: hinttext ?? '',
               hintStyle: MyTextStyle.opMediumItalic(context)!,
+              border: const OutlineInputBorder(
+                  borderSide: BorderSide(width: 0.8),
+                  borderRadius: BorderRadius.all(Radius.circular(10))),
             ),
             validator: (text) {
               return null;

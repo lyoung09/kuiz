@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:kuiz/util/my_color.dart';
 import 'package:kuiz/util/my_textstyle.dart';
 
 import '../../../../../controller/setting_controller.dart';
@@ -30,8 +31,8 @@ class _ThemeToggleWidgetState extends State<ThemeToggleWidget> {
       width: 260,
       child: ToggleButtons(
         isSelected: isSelectedTab,
-        // color: MyColors.grey_60,
-        // selectedBorderColor: MyColors.primary,
+        fillColor: MyColor().backgroundButtonColor(),
+        selectedBorderColor: Colors.black,
         borderRadius: BorderRadius.circular(15),
         children: [
           Container(

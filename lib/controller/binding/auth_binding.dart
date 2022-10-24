@@ -9,6 +9,6 @@ class AuthBinding extends Bindings {
   void dependencies() {
     Get.lazyPut(() => AuthController());
     Get.lazyPut(() => UserController());
-    Get.lazyPut(() => QuizController());
+    // Get.lazyPut(() => QuizController());
   }
 }

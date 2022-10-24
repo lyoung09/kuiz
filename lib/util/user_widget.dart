@@ -1,15 +1,13 @@
-import 'dart:io';
-
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kuiz/controller/user_controller.dart';
+import 'package:kuiz/controller/setting_controller.dart';
+import 'package:kuiz/util/my_color.dart';
 import 'package:kuiz/util/my_textstyle.dart';
 
-import '../model/user_model.dart';
+import '../service/camera/detail_image.dart';
 
 class UserWidget {
-  final user = Get.put(UserController());
-
   Widget userNicknameWidget(nickName, context) {
     return Text(
       nickName,
@@ -18,12 +16,34 @@ class UserWidget {
   }
 
   Widget userProfileWidget(String? profile, context) {
-    return CircleAvatar(
-      backgroundColor: Colors.white,
-      radius: 25,
+    return GestureDetector(
+      onTap: () {
+        Get.to(() => DetailImage(
+              image: profile,
+            ));
+      },
       child: profile == null || profile.isEmpty
-          ? Image.asset('assets/icons/my.png')
-          : Image.network(profile),
+          ? CircleAvatar(
+              backgroundColor: MyColor().backgroundColor(),
+              radius: 32,
+              child: Image.asset(
+                'assets/icons/my.png',
+                color: MyColor().imageAssetColor(),
+              ),
+            )
+          : CachedNetworkImage(
+              imageUrl: profile,
+              imageBuilder: (context, profile) => CircleAvatar(
+                    backgroundImage: profile,
+                    radius: 32,
+                  ),
+              progressIndicatorBuilder: (context, url, downloadProgress) =>
+                  const SizedBox(
+                    height: 0,
+                  ),
+              errorWidget: (context, url, error) {
+                return Image.asset('assets/icons/my.png');
+              }),
     );
   }
 

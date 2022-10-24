@@ -1,11 +1,16 @@
 import 'package:firebase_app_check/firebase_app_check.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:kuiz/controller/auth_controller.dart';
 import 'package:kuiz/controller/setting_controller.dart';
+import 'package:kuiz/controller/user_controller.dart';
 
 import 'package:kuiz/root.dart';
+import 'package:kuiz/screen/bottom/bottom_nav.dart';
+import 'package:kuiz/screen/login/login.dart';
 import 'controller/binding/auth_binding.dart';
 import 'service/setting/theme.dart';
 
@@ -29,12 +34,26 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       //initialRoute: '/login',
+      debugShowCheckedModeBanner: false,
       home: const Root(),
       initialBinding: AuthBinding(),
       title: 'Flutter Demo',
       theme: Themes().lightThemes,
       darkTheme: Themes().darkThemes,
       themeMode: settingController.getThemeMode(),
+      builder: EasyLoading.init(),
+      getPages: [
+        GetPage(
+            name: '/bottom',
+            page: () => BottomTap(),
+            binding: BindingsBuilder(() {
+              Get.put(UserController());
+            })),
+        GetPage(
+          name: '/login',
+          page: () => LoginScreen(),
+        ),
+      ],
     );
   }
 }

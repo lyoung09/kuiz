@@ -10,26 +10,26 @@ import 'package:kuiz/service/camera/camera_service.dart';
 class MyStroage {
   final storage = FirebaseStorage.instance;
 
-  Future<bool> uploadUserImage(PickedFile image, email) async {
+  Future<String?> uploadUserImage(PickedFile image, uid) async {
     try {
-      final path = 'users/$email';
+      final path = 'users/$uid';
+      final ref = storage.ref().child(path);
 
-      final ref = FirebaseStorage.instance.ref().child(path);
-
-      ref.putFile(File(image.path));
-
-      return true;
+      return ref.putFile(File(image.path)).then((value) {
+        return ref.getDownloadURL();
+      });
     } on FirebaseException catch (e) {
       debugPrint(e.toString());
       rethrow;
     }
   }
 
-  Future<String?> getUserImage(email) async {
+  deleteUserImage(uid) async {
     try {
-      final path = 'users/$email';
-
-      return FirebaseStorage.instance.ref().child(path).getDownloadURL();
+      final path = 'users/$uid';
+      debugPrint('11');
+      storage.ref().child(path).delete();
+      debugPrint('112');
     } on FirebaseException catch (e) {
       debugPrint(e.toString());
       rethrow;
